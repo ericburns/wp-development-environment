@@ -1,0 +1,14 @@
+# Ignore Vagrant's files
+.vagrant
+
+# Ignore ansible auto-generated files
+ansible/playbook.retry
+
+# Ignore the default themes & plugins
+src/plugins/akismet
+src/plugins/hello.php
+src/plugins/index.php
+src/themes/twentyfifteen
+src/themes/twentysixteen
+src/themes/twentyseventeen
+src/themes/index.php

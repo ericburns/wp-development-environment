@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - role: wordpress
+      database_name: db_name
+      database_user: db_user
+      database_password: db_pass
+      wp_domain: dev.example.com
